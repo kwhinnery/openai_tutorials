@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@tensorflow/tfjs": "npm:@tensorflow/tfjs@^4.21.0",
+    "openai": "npm:openai@^4.58.1"
+  }
+}
