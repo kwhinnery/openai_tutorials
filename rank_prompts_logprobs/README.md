@@ -31,3 +31,25 @@ each. A higher perplexity value indicates that the model is less confident in
 the correctness of the generated text for a given prompt. The prompt with the
 lowest perplexity value might be considered the best prompt for generating text
 in the given context.
+
+## Example output
+
+The test run below shows that the third prompt, the most specific one which
+references album sales instead of subjective factors, has the lowest perplexity.
+
+```
+Prompt 0:
+"Many critics and fans consider Jay-Z's 2001 album "The Blueprint" to be his best work."
+Perplexity: Tensor
+    1.3006447553634644
+
+Prompt 1:
+"Many fans and critics consider Jay-Z's 2001 album "The Blueprint" to be his most creative work, showcasing his lyrical prowess and influential production."
+Perplexity: Tensor
+    1.5504449605941772
+
+Prompt 2:
+"Jay-Z's highest-selling album ever is "Vol. 2... Hard Knock Life," which was released in 1998 and has sold over 5 million copies in the United States."
+Perplexity: Tensor
+    1.170264482498169
+```
